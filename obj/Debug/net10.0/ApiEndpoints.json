@@ -1,0 +1,712 @@
+[
+  {
+    "ContainingType": "TeretanaBackend.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/login-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "TeretanaBackend.ViewModels.LoginVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.AuthenticationController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Authentication/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "TeretanaBackend.ViewModels.TokenRequestVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/Authentication/register-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "TeretanaBackend.ViewModels.RegisterVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "AddCart",
+    "RelativePath": "api/Cart/add-cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.AddCartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "AddCartWithItems",
+    "RelativePath": "api/Cart/add-cart-with-items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItemsRequest",
+        "Type": "TeretanaBackend.Dto.CartItemsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "DeleteCart",
+    "RelativePath": "api/Cart/delete-cart",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cart",
+        "Type": "TeretanaBackend.Models.Cart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "GetAllCarts",
+    "RelativePath": "api/Cart/get-all-carts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "GetCart",
+    "RelativePath": "api/Cart/get-cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cart",
+        "Type": "TeretanaBackend.Models.Cart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "GetCartWithItems",
+    "RelativePath": "api/Cart/get-cart-with-items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cart",
+        "Type": "TeretanaBackend.Models.Cart",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "UpdateCart",
+    "RelativePath": "api/Cart/update-cart",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.UpdateCartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CartController",
+    "Method": "UpdateCartWithItems",
+    "RelativePath": "api/Cart/update-cart-with-items",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItemsRequest",
+        "Type": "TeretanaBackend.Dto.CartItemsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CategoryController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Category/add-category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCategoryRequest",
+        "Type": "TeretanaBackend.Dto.AddCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Category/delete-category",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "TeretanaBackend.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Category/get-all-categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Category/get-category-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "TeretanaBackend.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Category/update-category",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCategoryRequest",
+        "Type": "TeretanaBackend.Dto.UpdateCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.GymLocationController",
+    "Method": "AddGymLocationAsync",
+    "RelativePath": "api/GymLocation/add-gym-location",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gymLocationRequest",
+        "Type": "TeretanaBackend.Dto.AddGymLocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.GymLocationController",
+    "Method": "DeleteGymLocationAsync",
+    "RelativePath": "api/GymLocation/delete-gym-location",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gymLocation",
+        "Type": "TeretanaBackend.Models.GymLocation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.GymLocationController",
+    "Method": "GetAllGymLocationsAsync",
+    "RelativePath": "api/GymLocation/get-all-gym-locations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.GymLocationController",
+    "Method": "GetGymLocationAsync",
+    "RelativePath": "api/GymLocation/get-gym-location",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gymLocation",
+        "Type": "TeretanaBackend.Models.GymLocation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.GymLocationController",
+    "Method": "UpdateGymLocationAsync",
+    "RelativePath": "api/GymLocation/update-gym-location",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gymLocationRequest",
+        "Type": "TeretanaBackend.Dto.UpdateGymLocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.MembershipPlanController",
+    "Method": "AddMembershipPlan",
+    "RelativePath": "api/MembershipPlan/add-membership-plan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.AddMembershipPlanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.MembershipPlanController",
+    "Method": "AddUserMembership",
+    "RelativePath": "api/MembershipPlan/add-user-membership",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.UserMembershipRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.MembershipPlanController",
+    "Method": "DeleteMembershipPlan",
+    "RelativePath": "api/MembershipPlan/delete-membership-plan",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "membershipPlan",
+        "Type": "TeretanaBackend.Models.MembershipPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.MembershipPlanController",
+    "Method": "GetMembershipPlan",
+    "RelativePath": "api/MembershipPlan/get-membership",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "membershipPlan",
+        "Type": "TeretanaBackend.Models.MembershipPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.MembershipPlanController",
+    "Method": "GetAllMembershiplPlans",
+    "RelativePath": "api/MembershipPlan/get-membership-plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.MembershipPlanController",
+    "Method": "UpdateMembershipPlan",
+    "RelativePath": "api/MembershipPlan/update-membership-plan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.UpdateMembershipPlanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "AddOrderAsync",
+    "RelativePath": "api/Order/add-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "AddOrderWithItems",
+    "RelativePath": "api/Order/add-order-with-items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderWithItemsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "AddOrderWithItemsFromCartId",
+    "RelativePath": "api/Order/add-order-with-items-from-cartid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.CartOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "OrderPayment",
+    "RelativePath": "api/Order/add-payment-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderPaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Order/delete-order",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Order/get-all-orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "GetOrder",
+    "RelativePath": "api/Order/get-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderRequest",
+        "Type": "TeretanaBackend.Dto.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "GetOrderWithItems",
+    "RelativePath": "api/Order/get-order-with-items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Order/update-order",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.OrderController",
+    "Method": "UpdateOrderWithOrderItems",
+    "RelativePath": "api/Order/update-order-with-order-items",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.OrderWithItemsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.ProductsController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Products/add-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Products/delete-product",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Products/get-all-products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.ProductsController",
+    "Method": "GetProduct",
+    "RelativePath": "api/Products/get-product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products/update-product",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.StatusOrderController",
+    "Method": "AddStatusOrder",
+    "RelativePath": "api/StatusOrder/add-status-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.AddStatusOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.StatusOrderController",
+    "Method": "DeleteStatusOrder",
+    "RelativePath": "api/StatusOrder/delete-status-order",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusOrder",
+        "Type": "TeretanaBackend.Models.StatusOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.StatusOrderController",
+    "Method": "GetAllStatusOrders",
+    "RelativePath": "api/StatusOrder/get-all-status-orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.StatusOrderController",
+    "Method": "GetStatusOrder",
+    "RelativePath": "api/StatusOrder/get-status-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusOrder",
+        "Type": "TeretanaBackend.Models.StatusOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeretanaBackend.Controllers.StatusOrderController",
+    "Method": "UpdateStatusOrder",
+    "RelativePath": "api/StatusOrder/update-status-order",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TeretanaBackend.Dto.UpdateStatusOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

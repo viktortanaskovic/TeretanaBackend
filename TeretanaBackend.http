@@ -1,0 +1,6 @@
+@TeretanaBackend_HostAddress = http://localhost:5224
+
+GET {{TeretanaBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
