@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeretanaBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b31fb04e1d788c9784698e07815fdf4eebb1d47d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeretanaBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeretanaBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

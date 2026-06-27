@@ -209,12 +209,14 @@ namespace TeretanaBackend.Services
             var totalPrice = 0.0;
             foreach (var cartItem in cartItems)
             {
+                var product = listProducts.FirstOrDefault(p => p.ProductId == cartItem.ProductId);
+                if (product is null) throw new Exception("Invalid Product");
+                if (product.Price <= 0) throw new Exception("Invalid Product");
+                if (product.StockQuantity < cartItem.Quantity) throw new Exception("There is no enough Stock Qunatity for this Cart item");
                 orderItem = new OrderItem();
                 orderItem.ProductId = cartItem.ProductId;
                 orderItem.Quantity = cartItem.Quantity;
-                var priceProduct = listProducts.FirstOrDefault(p=>p.ProductId == cartItem.ProductId).Price;
-                if (priceProduct <= 0) throw new Exception("Invalid Product");
-                var totalPriceProduct = priceProduct * cartItem.Quantity;
+                var totalPriceProduct = product.Price * cartItem.Quantity;
                 orderItem.Price= totalPriceProduct;
                 orderItem.CreatedAt = DateTime.UtcNow;
                 orderItem.CreatedBy = user;
